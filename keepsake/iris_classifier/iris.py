@@ -31,7 +31,7 @@ def train(config_path):
 
     ########################################################################
     # Create an "experiment". This represents a run of your training script.
-    # It saves the training code at the given path and any hyperparameters.
+    # It saves your parameters and any file(s) you specify.
 
     # path -> path to upload on a per experiment basis
     # params -> dictionary of parameters to track per experiment
