@@ -1,0 +1,192 @@
+{
+ "id": "e2cf74df0d4d008867c5f23c1eae56e1bc84be103c4afc2da35e21d95ee657b0",
+ "created": "2021-04-23T16:12:37.010382891Z",
+ "params": {
+  "learning_rate": 0.1,
+  "middle_dim": 15,
+  "num_epochs": 10,
+  "train_size": 0.5
+ },
+ "host": "",
+ "user": "srikanth",
+ "config": {
+  "repository": "file:///Users/srikanth/Desktop/School/Research/iris_classifier/repo",
+  "storage": ""
+ },
+ "command": "iris.py config/default.ini",
+ "path": "experiment_dir/",
+ "python_version": "3.7.4",
+ "python_packages": {
+  "atomicwrites": "1.3.0",
+  "backcall": "0.1.0",
+  "colorama": "0.4.1",
+  "configobj": "5.0.6",
+  "decorator": "4.4.0",
+  "jedi": "0.15.1",
+  "joblib": "0.13.2",
+  "keepsake": "0.4.2",
+  "nose": "1.3.7",
+  "numpy": "1.17.2",
+  "packaging": "19.2",
+  "parso": "0.5.1",
+  "pexpect": "4.7.0",
+  "pickleshare": "0.7.5",
+  "pluggy": "0.13.0",
+  "psutil": "5.6.3",
+  "ptyprocess": "0.6.0",
+  "py": "1.8.0",
+  "pygments": "2.4.2",
+  "pytest": "5.2.1",
+  "scipy": "1.4.1",
+  "six": "1.12.0",
+  "sklearn": "0.0",
+  "torch": "1.8.1",
+  "tqdm": "4.36.1",
+  "traitlets": "4.3.3",
+  "wcwidth": "0.1.7",
+  "zipp": "0.6.0"
+ },
+ "checkpoints": [
+  {
+   "id": "19aef77bf5896c8610f59c30e7eb85c1354bb67d06a684663c753b4c2e4e46ab",
+   "created": "2021-04-23T16:12:37.046330929Z",
+   "metrics": {
+    "accuracy": 0.3333333432674408,
+    "loss": 1.1884387731552124
+   },
+   "step": 1,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "cf4d037c2733c6c329e014da379a60751825ad835569643ef50bc1e7199f8eed",
+   "created": "2021-04-23T16:12:37.05491209Z",
+   "metrics": {
+    "accuracy": 0.9733333587646484,
+    "loss": 0.9468684792518616
+   },
+   "step": 2,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "94f3d3bce0ede9e256612a9dab5384d5840f9b1ee7cdf029e3be7a91e4c50761",
+   "created": "2021-04-23T16:12:37.060077906Z",
+   "metrics": {
+    "accuracy": 0.6666666865348816,
+    "loss": 0.7751985788345337
+   },
+   "step": 3,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "02eb0b67d095ac1b005db31c719c7c0ed66730c9e6a60ca6d58ab7331e2ac4b1",
+   "created": "2021-04-23T16:12:37.066054106Z",
+   "metrics": {
+    "accuracy": 0.6666666865348816,
+    "loss": 0.6803827881813049
+   },
+   "step": 4,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "e038c8640dea40e1a4878ae4cd5f99c92c53334e29eaa6e282e1b4d416c0f228",
+   "created": "2021-04-23T16:12:37.071499109Z",
+   "metrics": {
+    "accuracy": 0.6800000071525574,
+    "loss": 0.6001232862472534
+   },
+   "step": 5,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "7e5cb2cf7c855a821b4eacba9d4dba84bb2ae86e9263fd530ac812cbcb38296b",
+   "created": "2021-04-23T16:12:37.075913906Z",
+   "metrics": {
+    "accuracy": 0.9866666793823242,
+    "loss": 0.47633635997772217
+   },
+   "step": 6,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "f651089f4075b1a89c67431628370f3003e989cdc3a6614fa454cf3b5ee3e914",
+   "created": "2021-04-23T16:12:37.080610037Z",
+   "metrics": {
+    "accuracy": 0.9066666960716248,
+    "loss": 0.4228156805038452
+   },
+   "step": 7,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "f7abd21168116a9af0c6da5fc1b99b93e04fd80cf3fdbf1f69fdc3d7f9eff2c4",
+   "created": "2021-04-23T16:12:37.08487606Z",
+   "metrics": {
+    "accuracy": 0.9599999785423279,
+    "loss": 0.3846716582775116
+   },
+   "step": 8,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "002f8de475be24b1186a327924cc565d463fb6ae21a502131f1566f6dd741879",
+   "created": "2021-04-23T16:12:37.089993Z",
+   "metrics": {
+    "accuracy": 0.9066666960716248,
+    "loss": 0.34357088804244995
+   },
+   "step": 9,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  },
+  {
+   "id": "e16a0c40161cd1fccdd8e8b2e62dd0a9bc93627af27b930a5a0b729558de9cf9",
+   "created": "2021-04-23T16:12:37.094460011Z",
+   "metrics": {
+    "accuracy": 0.9733333587646484,
+    "loss": 0.33727577328681946
+   },
+   "step": 10,
+   "path": "checkpoint_dir/",
+   "primary_metric": {
+    "name": "loss",
+    "goal": "minimize"
+   }
+  }
+ ],
+ "keepsake_version": "0.4.2"
+}
