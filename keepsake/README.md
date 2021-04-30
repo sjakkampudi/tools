@@ -1,5 +1,7 @@
 # Keepsake
 
+Run `pip install -r requirements.txt` to download the necessary packages.
+
 ## iris classifier
 
 This example runs an iris classifier neural network model and logs it using keepsake.
